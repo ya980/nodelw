@@ -1,4 +1,4 @@
-name: Build huggingface Image
+buname: Build huggingface Image
 
 on:
   push:
@@ -41,7 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/hug85677:latest
+            ghcr.io/${{ github.repository_owner }}/zeabur5677:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
